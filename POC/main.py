@@ -10,8 +10,8 @@ from scaler_transform import ScalerTransform
 
 kmeans = pickle.load(open("modelos_treinados/save.pkl", "rb"))
 
-cid = '85bde5058f48488eb76c9a41fd7942eb'
-secret = '348553157cc540e2bfe0f3fb98af4143'
+cid = 'YOUR_CODE'
+secret = 'YOUR_SECRET_CODE'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager
