@@ -1,4 +1,4 @@
-!pip install spotipy
+pip install spotipy
 
 import pandas as pd
 import streamlit as st
